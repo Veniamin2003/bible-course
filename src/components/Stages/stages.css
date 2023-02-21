@@ -3,7 +3,7 @@
     margin-bottom: 0;
 }
 .header__text__stage h2 {
-    margin-top: 6rem;
+    margin-top: 2rem;
     text-align: center;
     font-size: 70px;
     line-height: 112px;
@@ -75,9 +75,12 @@
         width: 25rem;
     }
     .header__text__stage h2 {
+        margin-top: 0;
         font-size: 60px;
     }
-
+    .stages__container {
+        margin-top: 4rem;
+    }
     .stages__content small, h5 {
         font-size: 24px;
         line-height: 40px;

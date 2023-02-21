@@ -1,6 +1,5 @@
 import React from "react"
 import './stages.css'
-import {FaLink} from "react-icons/fa"
 import {GiOpenBook} from "react-icons/gi"
 import {HiAcademicCap} from "react-icons/hi"
 import {BiLinkExternal} from "react-icons/bi"

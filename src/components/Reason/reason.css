@@ -24,7 +24,6 @@
 }
 .reason__header__text h2 {
     margin-top: -1rem;
-    margin-bottom: 2rem;
     text-align: left;
     font-size: 54px;
     line-height: 75px;
@@ -168,6 +167,7 @@
     }
 
     .reason__header__text h2 {
+        width: 100%;
         margin-bottom: 1rem;
         font-size: 40px;
         line-height: 46px;
