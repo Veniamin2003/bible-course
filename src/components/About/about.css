@@ -1,0 +1,120 @@
+.about__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.about__header__text {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.about__header__text h2 {
+    text-align: left;
+    font-size: 70px;
+    line-height: 84px;
+    margin-bottom: 2rem;
+}
+
+.about__content__text {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 4rem;
+}
+
+.about__text {
+    text-align: left;
+}
+
+.about__text p {
+    width: 100%;
+    font-size: 36px;
+    line-height: 56px;
+}
+@media screen and (max-width: 1600px){
+    .about__header__text h2 {
+        font-size: 60px;
+    }
+    .about__text p {
+        font-size: 32px;
+        line-height: 44px;
+    }
+}
+@media screen and (max-width: 1370px){
+    .about__header__text h2 {
+        font-size: 45px;
+        line-height: 80px;
+        margin-bottom: 0;
+    }
+    .about__content__text {
+        gap: 3rem;
+    }
+    .about__text {
+        width: 100%;
+    }
+    .about__text p {
+        font-size: 28px;
+        line-height: 42px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .about__container {
+        margin-top: 0;
+    }
+    .about__content__text {
+        gap: 2rem;
+    }
+    .about__header__text {
+        margin-bottom: 0;
+    }
+
+    .about__header__text h2 {
+        font-size: 40px;
+    }
+
+    .about__text {
+        height: auto;
+        margin-top: 0.3rem;
+        margin-bottom: 0;
+    }
+    .about__text p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .about__content__text {
+        gap: 1rem;
+    }
+
+    .about__text p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .about__container {
+        margin-top: 0;
+    }
+    .about__content__text {
+        grid-template-columns: 1fr;
+    }
+    .about__header__text {
+        margin-bottom: -1rem;
+    }
+    .about__header__text h2 {
+        margin-bottom: 1rem;
+        font-size: 36px;
+        line-height: 47px;
+    }
+
+    .about__text {
+        height: auto;
+        margin-top: 1rem;
+        margin-bottom: 0;
+     }
+}

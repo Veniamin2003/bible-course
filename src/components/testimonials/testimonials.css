@@ -1,0 +1,132 @@
+.container.testimonials__container {
+    margin-top: 0;
+    width: 60%;
+    height: auto;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-primary);
+}
+
+.swiper-button-prev, .swiper-button-next{
+    color: #774d1d !important;
+}
+
+
+.testimonial {
+    background: transparent;
+    text-align: center;
+    padding: 2rem 5rem;
+    user-select: none;
+    margin-bottom: 3rem;
+}
+
+.client__review {
+    height: auto;
+    color: var(--color-light);
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    margin: 0.8rem auto 0;
+
+    text-align: left;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 47px;
+}
+
+.client__name {
+    text-align: left;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 47px;
+}
+
+.testimonial__header h2 {
+    font-size: 70px;
+}
+@media screen and (max-width: 1600px) {
+    .testimonial__header h2 {
+        font-size: 60px;
+    }
+    .client__review {
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .client__name {
+        font-size: 26px;
+        line-height: 47px;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .container.testimonials__container {
+        width: 75%;
+    }
+    .testimonial__header h2 {
+        font-size: 45px;
+    }
+    .client__review {
+        font-size: 18px;
+        line-height: 38px;
+    }
+    .client__name {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+/*==================== MEDIA QUERIES (MEDIUM DEVICES) =======================*/
+@media screen and (max-width: 1024px){
+
+    .testimonial__header {
+        display: grid;
+        width: 85%;
+    }
+
+    .testimonial__header h2 {
+        width: 100%;
+        text-align: left;
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+    .container.testimonials__container {
+        width: 85%;
+    }
+    .client__name {
+        font-size: 24px;
+    }
+    .client__review {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+
+/*==================== MEDIA QUERIES (SMALL DEVICES) =======================*/
+@media screen and (max-width: 800px) {
+    .client__name {
+        font-size: 20px;
+    }
+    .client__review {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container.testimonials__container {
+        width: var(--container-width-sm);
+    }
+
+    .testimonial {
+        width: var(--container-width-sm);
+        height: auto;
+    }
+    .client__review {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .client__name {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

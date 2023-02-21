@@ -1,0 +1,143 @@
+.stages__container {
+    margin-top: 6rem;
+    margin-bottom: 0;
+}
+.header__text__stage h2 {
+    margin-top: 6rem;
+    text-align: center;
+    font-size: 70px;
+    line-height: 112px;
+}
+
+.stages__cards {
+    width: 100%;
+}
+
+.stages__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.stages__card {
+    width: 28rem;
+    text-align: center;
+}
+
+.stages__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.stages__content a {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 16px;
+    cursor: pointer;
+    color: #000000;
+    margin-top: 1rem;
+    padding-bottom: 3px;
+    border-bottom: 2px solid var(--color-primary-variant);
+    transition: var(--transition);
+}
+
+.stages__content a:hover {
+    color: #b2b2b2;
+    border-bottom: 2px solid #c58539;
+}
+
+.stages__content h5 {
+    margin: 1.3rem 0 0.5rem;
+    font-size: 30px;
+    line-height: 56px;
+}
+.stages__content small {
+    text-align: center;
+    width: 100%;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 42px;
+    display: flex;
+}
+
+.stages__icon {
+    color: rgba(129, 110, 84, 0.76);
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 1600px){
+    .stages__card {
+        width: 25rem;
+    }
+    .header__text__stage h2 {
+        font-size: 60px;
+    }
+
+    .stages__content small, h5 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 1370px){
+    .stages__cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+    .header__text__stage h2 {
+        font-size: 45px;
+    }
+    .stages__content small, h5 {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .stages__content a {
+        margin-top: 0.6rem;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .header__text__stage {
+        width: 85%;
+    }
+    .header__text__stage h2 {
+        margin-top: 10rem;
+        text-align: left;
+        font-size: 40px;
+        line-height: 42px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .header__text__stage {
+        width: 85%;
+        text-align: left;
+    }
+    .header__text__stage h2 {
+        margin-top: 9rem;
+
+        text-align: left;
+        font-size: 40px;
+    }
+
+
+    .stages__cards {
+        margin-top: -3rem;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .stages__card {
+        margin-top: 2rem;
+    }
+
+    .stages__content a {
+        font-size: 18px;
+    }
+}

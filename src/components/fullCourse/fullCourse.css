@@ -1,0 +1,114 @@
+.fullCourse__container {
+    width: 85%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 4rem;
+    margin-top: 8rem;
+    justify-content: center;
+}
+
+.inner-img {
+    transition: 0.3s;
+}
+
+.inner-img:hover {
+    transform: scale(1.1);
+}
+
+.fullCourse__parallax-img {
+    display: none;
+}
+
+.fullCourse__header h3 {
+    margin-top: -1.6rem;
+    font-size: 54px;
+    text-align: right;
+}
+.fullCourse__text p {
+    width: 100%;
+    font-size: 28px;
+    line-height: 55px;
+    text-align: right;
+}
+
+@media screen and (max-width: 1600px){
+    .fullCourse__header h3 {
+        margin-bottom: 1rem;
+        font-size: 48px;
+        line-height: 80px;
+    }
+    .fullCourse__text p {
+        font-size: 26px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 1370px){
+    .fullCourse__container {
+        gap: 2rem;
+    }
+    .fullCourse__header h3 {
+        margin-top: -0.6rem;
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .fullCourse__text p {
+        width: 100%;
+        font-size: 20px;
+        line-height: 38px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .fullCourse__header h3 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .fullCourse__container {
+        grid-template-areas:
+            "photo"
+            "text";
+        grid-template-columns: 1fr;
+        grid-template-rows: 45% 55%;
+        width: 100%;
+        height: auto;
+        display: grid;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 1rem;
+    }
+    .fullCourse__content {
+        width: 85%;
+        grid-area: text;
+    }
+    .fullCourse__header h3 {
+        text-align: left;
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .fullCourse__text p {
+        text-align: left;
+        line-height: 34px;
+    }
+
+    .fullCourse__parallax-img {
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .fullCourse__parallax-img {
+        display: block;
+        grid-area: photo;
+        width: 100%;
+        height: 12rem;
+        background-image: url('../../Images/full-course.jpg');
+    }
+}

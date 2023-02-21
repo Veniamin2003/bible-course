@@ -1,0 +1,140 @@
+.mentor__container {
+    width: 85%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 4rem;
+    margin-bottom: 0;
+    margin-top: 4rem;
+    justify-content: center;
+    justify-items: end;
+}
+
+.three__photo {
+    width: 800px;
+    overflow: hidden;
+}
+
+.inner-img {
+    transition: 5s;
+}
+
+.inner-img:hover {
+    transform: scale(1.1);
+}
+
+.mentor__parallax-img {
+    display: none;
+}
+
+.mentor__header h3 {
+    margin-top: -1.6rem;
+    font-size: 54px;
+    text-align: left;
+}
+.mentor__text p {
+    width: 90%;
+    font-size: 28px;
+    line-height: 55px;
+    text-align: left;
+}
+
+@media screen and (max-width: 1800px){
+    .three__photo {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    .three__photo {
+        width: 600px;
+    }
+    .mentor__header h3 {
+        margin-bottom: 1rem;
+        font-size: 48px;
+    }
+    .mentor__text p {
+        font-size: 26px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 1370px){
+    .three__photo {
+        width: 500px;
+    }
+    .mentor__container {
+        gap: 2rem;
+    }
+    .mentor__header h3 {
+        margin-top: -0.6rem;
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .mentor__text p {
+        width: 100%;
+        font-size: 20px;
+        line-height: 38px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .three__photo {
+        width: 460px;
+    }
+
+    .mentor__header h3 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .mentor__text p {
+        width: 100%;
+        font-size: 20px;
+        line-height: 38px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .three__photo {
+        display: none;
+    }
+    .mentor__container {
+        grid-template-areas:
+            "photo"
+            "text";
+        grid-template-columns: 1fr;
+        grid-template-rows: 45% 55%;
+        width: 100%;
+        height: auto;
+        display: grid;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        margin-bottom: 1rem;
+    }
+    .mentor__content {
+        width: 85%;
+        grid-area: text;
+    }
+    .mentor__header h3 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .mentor__text p {
+        line-height: 34px;
+    }
+
+    .mentor__parallax-img {
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .mentor__parallax-img {
+        display: block;
+        grid-area: photo;
+        width: 100%;
+        height: 15rem;
+        background-image: url('../../Images/mentor1.png');
+    }
+}

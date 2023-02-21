@@ -1,0 +1,254 @@
+section {
+    display: grid;
+    justify-items: center;
+    margin-top: 0;
+    margin-bottom: 8rem;
+}
+
+.header__container {
+    width: 85%;
+    height: 800px;
+    display: grid;
+    grid-template-areas:
+            "menu menu"
+            "cnt photo"
+            "text text";
+    grid-template-rows: 5% 75% 20%;
+    grid-template-columns: 45% 55%;
+
+    gap: 3rem;
+    margin-top: 3rem;
+
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+/*================= MENU ====================*/
+
+.menu {
+    width: 100%;
+    grid-area: menu;
+    display: flex;
+    gap: 30px;/*ширина ячеек */
+    padding: 0;
+}
+
+.menu li {
+    list-style: none; /*чтобы не было точек перед <li/> */
+    margin-bottom: 5px;
+}
+
+.menu a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    cursor: pointer;
+    color: #797979;
+}
+
+.menu a:after {
+    display: grid;
+    left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+    width: 0;/*задаём длинну линии до наведения курсора*/
+    height: 2px; /*задаём ширину линии*/
+    background-color: var(--color-primary-variant); /*задаём цвет линии*/
+    content: "";
+    transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+
+.menu a:hover:after,
+.menu a:focus:after {
+    width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+/*================= CONTENT ====================*/
+
+.text h1 {
+    font-size: 100px;
+    width: 90%;
+}
+
+.content__container {
+    grid-area: cnt;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    text-align: left;
+}
+.text {
+    margin-bottom: 3rem;
+}
+
+.text h4 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 80px;
+}
+
+.button {
+    margin-top: 2.7rem;
+}
+
+/*================= PHOTO ====================*/
+.photo {
+    grid-area: photo;
+    width: 90%;
+}
+
+/*============== TEXT__LOW ===================*/
+.text__low {
+    grid-area: text;
+    text-align: left;
+}
+
+.text__low p{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+
+    background: linear-gradient(180deg, #E4E4E4 0%, rgba(228, 228, 228, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    transform: rotate(0deg);
+}
+
+@media screen and (max-width: 1680px){
+    .text h1 {
+        width: 80%;
+        font-size: 80px;
+    }
+
+    .text h4 {
+        font-size: 28px;
+        line-height: 75px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .header__container {
+        height: 650px;
+        gap: 2.4rem;
+    }
+    .text h1 {
+        font-size: 70px;
+    }
+    .text h4 {
+        font-size: 24px;
+    }
+    .photo {
+        width: 100%;
+    }
+
+    .text__low p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1260px){
+    .text h1 {
+        font-size: 68px;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .header__container {
+        width: 90%;
+        height: auto;
+        display: grid;
+        grid-template-areas:
+            "photo"
+            "cnt";
+        grid-template-rows: 40% 60%;
+        grid-template-columns: 1fr;
+
+        gap: 3rem;
+
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+
+        margin-top: 20%;
+    }
+    .photo {
+        width: 100%;
+    }
+
+    .content__container {
+        width: 90%;
+    }
+    .content {
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text {
+        width: 70%;
+        text-align: center;
+    }
+    .text h1 {
+        text-align: center;
+        font-size: 80px;
+    }
+    .text h4 {
+        text-align: center;
+        font-size: 28px;
+    }
+    .menu {
+        display: none;
+    }
+    .text__low {
+        display: none;
+    }
+    .button {
+        width: 100%;
+        height: 80px;
+    }
+    .button a {
+        font-size: 22px;
+    }
+    .btn {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .header__container {
+        margin-top: 10%;
+    }
+    .text h1 {
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 56px;
+        margin-top: -2rem;
+    }
+    .text h4 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+
+    }
+    .button {
+        width: 100%;
+        height: 70px;
+    }
+    .button a {
+        font-size: 20px;
+    }
+    .btn {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
