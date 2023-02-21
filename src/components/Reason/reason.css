@@ -23,7 +23,6 @@
     width: 100%;
 }
 .reason__header__text h2 {
-    width: 55%;
     margin-top: -1rem;
     margin-bottom: 2rem;
     text-align: left;
@@ -87,7 +86,6 @@
 }
 @media screen and (max-width: 1600px){
     .reason__header__text h2 {
-        width: 60%;
         font-size: 48px;
         line-height: 64px;
     }
@@ -113,7 +111,6 @@
 
 @media screen and (max-width: 1370px){
     .reason__header__text h2 {
-        width: 98%;
         margin-top: -0.4rem;
         margin-right: 20px;
         font-size: 42px;
@@ -141,16 +138,7 @@
         font-size: 16px;
     }
 }
-@media screen and (max-width: 1160px){
-    .reason__header__text h2 {
-        width: 60%;
-    }
-}
-@media screen and (max-width: 1110px){
-    .reason__header__text h2 {
-        width: 70%;
-    }
-}
+
 @media screen and (max-width: 1024px){
     .reason__container {
         width: 100%;
@@ -181,7 +169,6 @@
 
     .reason__header__text h2 {
         margin-bottom: 1rem;
-        width: 100%;
         font-size: 40px;
         line-height: 46px;
     }
@@ -204,12 +191,11 @@
 }
 
 @media screen and (max-width: 600px){
+    .reason__container {
+        margin-top: -3rem;
+    }
     .text {
         width: 100%;
-    }
-
-    .reason__header__text h2 {
-        width: 70%;
     }
     .desc__block p {
         width: 100%;

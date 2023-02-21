@@ -19,7 +19,7 @@ const Header = () => {
                 <div className="content__container">
                     <div className="content">
                         <div className="text">
-                            <h1>Знакомство с Библией</h1>
+                            <h1>Знакомство с&nbsp;Библией</h1>
                             <h4>
                                 Бесплатный онлайн курс
                             </h4>

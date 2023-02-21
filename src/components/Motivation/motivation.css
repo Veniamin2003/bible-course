@@ -133,8 +133,7 @@
         justify-content: center;
         align-items: center;
         justify-items: center;
-
-        margin-top: 20%;
+        margin-top: -10rem;
     }
 
 
@@ -169,10 +168,6 @@
         width: 100%;
         height: 70px;
     }
-
-    .motivation__container {
-        margin-top: -5rem;
-    }
 }
 @media screen and (max-width: 800px){
     .motivation__header__text h3 {
@@ -182,11 +177,11 @@
 
 @media screen and (max-width: 600px){
     .motivation__container {
-        margin-top: 0;
+        margin-top: -13rem;
     }
 
-
     .motivation__header__text h3 {
+        margin-top: 1rem;
         margin-bottom: 0;
     }
     .motivation__desc__block p {
@@ -196,5 +191,8 @@
     .motivation__button_two a {
         font-size: 20px;
         width: 100%;
+    }
+    .motivation__button_two a {
+        margin-bottom: -35%;
     }
 }

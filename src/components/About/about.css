@@ -61,7 +61,7 @@
 
 @media screen and (max-width: 1024px){
     .about__container {
-        margin-top: 0;
+        margin-top: -3rem;
     }
     .about__content__text {
         gap: 2rem;

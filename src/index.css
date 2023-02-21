@@ -54,14 +54,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 128px;
   line-height: 100%;
-  /* or 100% */
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  letter-spacing: 0.25px;
 }
 
 h5 {

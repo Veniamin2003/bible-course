@@ -1,12 +1,3 @@
-// import Swiper core and required modules
-/*import { Pagination} from 'swiper';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';*/
-import img from "../../Images/answer1.jpg"
 import "./testimonials.css"
 
 import SwiperSlider from "./SwiperSlider";
@@ -23,9 +14,8 @@ const Testimonials = () => {
                     "Самый сложный период был где-то в середине курса.. посещали мысли забросить. Но я держалась. Спасибо вам за поддержку!”"
             },
             { id: 2,
-                name: "Alexandr",
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda distinctio dolore " +
-                    "et iusto maxime natus quasi quis suscipit vel."
+                name: "Александр",
+                description: "“Курс очень понравился. Пришлось переосмыслить многие вещи. Выражаю благодарность всем, кто поучаствовал в создании этого курса.“"
             },
 
         ]

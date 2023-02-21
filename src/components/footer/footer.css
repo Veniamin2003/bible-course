@@ -65,6 +65,9 @@ footer {
 }
 
 @media screen and (max-width: 1024px){
+    .footer__container {
+        height: 20rem;
+    }
 
     .footer__header__text h2 {
         font-size: 34px;
@@ -80,6 +83,10 @@ footer {
 }
 
 @media screen and (max-width: 800px){
+    .footer__container {
+        height: 17rem;
+    }
+
     .footer__header__text h2 {
         font-size: 28px;
     }
@@ -95,7 +102,7 @@ footer {
 
 @media screen and (max-width: 600px){
     .footer__container {
-        margin: 18rem 0 0 0;
+        margin: 14rem 0 0 0;
         height: 13rem;
     }
 
