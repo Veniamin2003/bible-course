@@ -64,6 +64,37 @@ footer {
     margin-right: 10px;
 }
 
+.logo__bible {
+    width: 200px;
+    color: white;
+}
+
+.icon__block {
+    margin-top: 15px;
+}
+.icon__elements {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.footIcon {
+    font-size: 20px;
+    margin-right: 20px;
+    color: #f0f9ff;
+}
+
+.youTube_icon {
+    color: #c4302b;
+}
+.telegram_icon {
+    color: #0088cc;
+}
+
+.instagram_icon {
+    color: #833ab4;
+}
+.vk_icon {
+    color: #9cb6ff;
+}
 @media screen and (max-width: 1024px){
     .footer__container {
         height: 20rem;
@@ -91,9 +122,17 @@ footer {
         font-size: 28px;
     }
 
-    .icon__bible {
-        font-size: 4rem;
+    .footIcon {
+        font-size: 18px;
+        margin-right: 15px;
     }
+
+    .logo__bible {
+        width: 125px;
+    }
+    /*.icon__bible {
+        font-size: 4rem;
+    }*/
 
     .footer__header__text p {
         font-size: 16px;
@@ -114,9 +153,12 @@ footer {
         font-size: 22px;
     }
 
-    .icon__bible {
-        font-size: 3rem;
+    .logo__bible {
+        width: 80px;
     }
+    /*.icon__bible {
+        font-size: 3rem;
+    }*/
 
     .footer__header__text p {
         font-size: 14px;

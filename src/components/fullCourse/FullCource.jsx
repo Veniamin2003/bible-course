@@ -1,6 +1,6 @@
 import React from "react";
 import "./fullCourse.css"
-import photo from "../../Images/full-course.jpg"
+import photo from "../../Images/Bible_2.jpg"
 
 const FullCourse = () => {
     return (

@@ -1,6 +1,6 @@
 import React from "react";
 import "./reason.css"
-import reason from "../../Images/reason.jpg"
+import reason from "../../Images/what_is_the_meaning_of_life.jpg"
 import icon from "../../Images/reason-icon.png"
 
 const Reason = () => {

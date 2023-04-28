@@ -1,6 +1,6 @@
 import React from "react";
 import "./mentor.css"
-import photo from "../../Images/mentor1.png"
+import photo from "../../Images/Mentors.jpg"
 
 const Mentor = () => {
     return (

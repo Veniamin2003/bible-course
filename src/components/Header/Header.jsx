@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css"
 import Bible from "../../Images/bible.png"
+import Logo from "../../Images/logo.svg"
 
 const Header = () => {
     return (
@@ -9,6 +10,7 @@ const Header = () => {
 
                 {/*============== MENU =================*/}
                 <div className="menu">
+                    <li><img src={Logo} alt="logo" className="header__logo"/></li>
                     <li><a href="#about">О курсе</a></li>
                     <li><a href="#stages">Как начать обучение?</a></li>
                     <li><a href="#program">Программа курса</a></li>
