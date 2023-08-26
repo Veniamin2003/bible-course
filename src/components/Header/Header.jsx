@@ -28,7 +28,7 @@ const Header = () => {
                         </div>
 
                         <div className="button">
-                            <a href="#" className="btn ">ПРОЙТИ КУРС</a>
+                            <a href="https://lifes-meaning.learnnn.com/basicsbible" className="btn " target={'_blank'}>ПРОЙТИ КУРС</a>
                         </div>
                     </div>
                 </div>

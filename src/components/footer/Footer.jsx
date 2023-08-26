@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="footer__content">
                     <div className="footer__header__text">
                         <h2>Жизни смысл</h2>
-                        <p><FiPhoneOutgoing className="phone__icon"/>+7(964)964-39-43</p>
+                        {/*<p><FiPhoneOutgoing className="phone__icon"/>+7(964)964-39-43</p>*/}
                         <div className="icon__block">
                             {/*<p>Мы в соц сетях</p>*/}
                             <div className="icon__elements">

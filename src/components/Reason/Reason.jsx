@@ -50,7 +50,7 @@ const Reason = () => {
                         </div>
                     </div>
                     <div className="button_two">
-                        <a href="#" className="btn">ПРОЙТИ КУРС</a>
+                        <a href="https://lifes-meaning.learnnn.com/basicsbible" className="btn" target={'_blank'}>ПРОЙТИ КУРС</a>
                     </div>
                 </div>
 
