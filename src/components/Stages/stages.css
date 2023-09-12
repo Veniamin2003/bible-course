@@ -2,11 +2,20 @@
     margin-top: 6rem;
     margin-bottom: 0;
 }
+
+.header__text__stage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 .header__text__stage h2 {
     margin-top: 2rem;
     text-align: center;
     font-size: 70px;
     line-height: 112px;
+    width: 90%;
 }
 
 .stages__cards {
@@ -22,7 +31,7 @@
 }
 
 .stages__card {
-    width: 28rem;
+    //width: 28rem;
     text-align: center;
 }
 
@@ -71,9 +80,9 @@
 }
 
 @media screen and (max-width: 1600px){
-    .stages__card {
-        width: 25rem;
-    }
+    /*.stages__card {*/
+    /*    width: 25rem;*/
+    /*}*/
     .header__text__stage h2 {
         margin-top: 0;
         font-size: 60px;
@@ -106,9 +115,9 @@
 }
 
 @media screen and (max-width: 1024px){
-    .header__text__stage {
-        width: 85%;
-    }
+    /*.header__text__stage {*/
+    /*    width: 85%;*/
+    /*}*/
     .header__text__stage h2 {
         margin-top: 10rem;
         text-align: left;
@@ -118,14 +127,14 @@
 }
 
 @media screen and (max-width: 800px){
-    .header__text__stage {
-        width: 85%;
-        text-align: left;
-    }
+    /*.header__text__stage {*/
+    /*    width: 85%;*/
+    /*    text-align: left;*/
+    /*}*/
     .header__text__stage h2 {
-        margin-top: 9rem;
+        margin-top: 3rem;
 
-        text-align: left;
+        /*text-align: left;*/
         font-size: 40px;
     }
 
